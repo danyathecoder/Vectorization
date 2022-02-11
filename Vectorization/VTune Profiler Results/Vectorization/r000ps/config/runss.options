@@ -1,0 +1,16 @@
+-r
+C:\Users\danilapoddubny\source\repos\Vectorization\Vectorization\VTune Profiler Results\Vectorization\r000ps
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--stack-unwind-limit=8388608
+--itt-config=frame
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:nostack
+--interval=100
+--app-working-dir=C:\Users\danilapoddubny\source\repos\Vectorization\Vectorization\
+--
+C:\Users\danilapoddubny\source\repos\Vectorization\x64\Release\Vectorization.exe

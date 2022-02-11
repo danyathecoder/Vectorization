@@ -1,0 +1,22 @@
+-r
+C:\Users\danilapoddubny\source\repos\Vectorization\Vectorization\VTune Profiler Results\Vectorization\r004so
+--itt-config=frame
+--stdsrc-config=cswitch,disk
+--stackwalk=lbr
+--event-mux-factor=5
+--etw-config=dma,frames
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--stack-unwind-limit=8388608
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=2600000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2600000,INST_RETIRED.ANY:sample:sa=2600000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003
+--event-config=UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES
+--platform-type=122
+--uncore-sampling-interval=10
+--mrte-mode=auto
+--etw-config=clr,js
+--stdsrc-config=cswitch
+--p-state-trigger=CPU_CLK_UNHALTED.REF_TSC
+--app-working-dir=C:\Users\danilapoddubny\source\repos\Vectorization\Vectorization\
+--
+C:\Users\danilapoddubny\source\repos\Vectorization\x64\Release\Vectorization.exe
