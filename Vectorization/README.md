@@ -69,4 +69,4 @@ over the Strassen calculation are rarely utilized practically,
 on the grounds that the huge steady factors in their running occasions make them inappropriate. 
 5. When I create Strassens' algorithm, I understand, that it's actually sucks
 with huge amount of data 
-6. This is reason, why I burned down: https://community.intel.com/t5/Intel-ISA-Extensions/Need-help-Why-my-avx-code-is-slower-than-SSE-code/td-p/1034874 
+6. Intel Optimization must have for AVX optimizations!

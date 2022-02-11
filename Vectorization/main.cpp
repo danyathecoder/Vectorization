@@ -3,7 +3,7 @@
 #include "Strassens.h"
 #include "CustomDGEMM.h"
 
-#define N 128
+#define N 512
 #define X 4
 
 using namespace std;
@@ -65,7 +65,7 @@ int main() {
 	cout << "Processing using naive alogrithm with custom vectorization took: " << time_span.count() << " seconds.\n";
 	for (int i = 0; i < n * m * x * y; i++) {
 		if (custom_vec_mtx_c[i] - vec_mtx_c[i] > 0 && custom_vec_mtx_c[i] - vec_mtx_c[i] > 0.001) {
-			cout << custom_vec_mtx_c[i] << " " << vec_mtx_c[i];
+			cout << "Wrong answer!";
 		}
 	}
 

@@ -40,7 +40,7 @@ double* naiveCustomVectorizedDGEMM(double* mtx_a, double* mtx_b, int& m, int& n,
 			}
 			for (int kn = 0; kn < k; kn++) {
 				//multiplexation of internal matrices
-				for (int i1 = 0; i1 < x; i1++) {
+				for (int i1 = x; i1 >= 0; i1--) {
 					for (int j2 = 0; j2 < t; j2++) {
 						double el_sum = 0.0;
 						for (int yz = 0; yz < y; yz++) {
